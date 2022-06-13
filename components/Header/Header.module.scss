@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--theme-color-gray);
+  .logo {
+    
+  }
+  .local_data {
+    padding-bottom: 24px;
+    padding-top: 0;
+    color: var(--spec-text-color-secondary);
+    letter-spacing: 1px;
+    font-size: 16px;
+    p {
+      margin-top: 0;
+    }
+    .date {
+      margin-bottom: 6px;
+    }
+  }
+}

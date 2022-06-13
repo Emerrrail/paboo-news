@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--spec-text-color-primary);
 }
 
 a {
@@ -19,8 +20,10 @@ a {
   --theme-color-red: #b01318;
   --theme-color-brown: #8f8180;
   --theme-color-orange: #d39b75;
+  --theme-color-gray: #e9e9e9;
   --spec-text-color-primary: #030303;
   --spec-text-color-primary-inverse: #fff;
   --spec-text-color-secondary: #606060;
   --spec-text-color-disable: #909090;
+
 }

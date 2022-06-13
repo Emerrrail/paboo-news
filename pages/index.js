@@ -4,6 +4,7 @@ import styles from '../styles/index.module.scss'
 import News from '../components/News/News'
 import axios from 'axios'
 import news from '../components/api/news'
+import Header from '../components/Header/Header'
 
 
 // export const getStaticProps = async () => {
@@ -45,6 +46,7 @@ export default function Home({}) {
   
   return (
     <div>
+      <Header />
       <h1>Homepage</h1>
       <News news={data2}/>
       <p>Sunt exercitation laborum consequat dolor elit adipisicing in eiusmod commodo ea irure cupidatat. Adipisicing id irure eiusmod proident excepteur nulla. Fugiat ad laboris veniam occaecat occaecat. Irure proident proident voluptate incididunt incididunt sit labore id amet exercitation in irure ex anim. Amet nisi voluptate officia dolore. Amet aliquip consectetur ullamco est consectetur nisi officia quis.</p>
